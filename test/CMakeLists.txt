@@ -1,4 +1,4 @@
-add_executable(test_payload_app test_payload.c)
+add_executable(test_payload_app test_payload.cpp)
 
 target_link_libraries(test_payload_app payload ringbuffer unity)
 
